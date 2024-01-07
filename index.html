@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("feU3e99WRLYKN6lVD");
+    })();
+    </script>
     <script src="script/script.js"></script>
 </head>
 <body>
     <section>
-        <form action="">
+        <form onsubmit="event.preventDefault(); sendMessage();">
             <div class="row">
                 <div>
                     <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="name" id="name">
                 </div>
                 <div>
-                    <label for="business">Business Name:</label>
-                    <input type="text" name="business" id="business" required>
+                    <label for="business">Business:</label>
+                    <input type="text" name="business" id="business">
                 </div>
             </div>
             <div class="row">
                 <div>
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
                 </div>
                 <div>
                     <label for="phone">Phone:</label>
-                    <input type="tel" name="phone" id="phone" required>
+                    <input type="tel" name="phone" id="phone">
                 </div>
             </div>
             <div class="row">
