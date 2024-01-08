@@ -1,5 +1,5 @@
 ## How To Send Email After HTML Form Submission With EmailJS
-`YouTube tutorial:[https://youtu.be/lrIE6CaBU78](https://youtu.be/lrIE6CaBU78)`
+`YouTube tutorial:`[https://youtu.be/lrIE6CaBU78](https://youtu.be/lrIE6CaBU78)
 
 ### 1. HTML structure
 - [x] Create an HTML form with your desired fields.
