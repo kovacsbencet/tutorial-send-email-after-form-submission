@@ -1,4 +1,4 @@
-## How To Send Email After Form Submission With EmailJS
+## How To Send Email After HTML Form Submission With EmailJS
 `YouTube tutorial:`
 
 ### 1. HTML structure
